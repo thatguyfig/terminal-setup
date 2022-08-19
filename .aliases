@@ -1,0 +1,45 @@
+#!/usr/bin/env bash
+
+# show colors nicely
+alias ls="ls --color=auto"
+
+# WINDOWS RELATED
+alias cls="clear"
+
+# aws instance rebuild
+alias awsinstances="python /Users/tom.thornton/GitRepos/edm-instance-compliance/python_scripts/show_instances.py"
+alias awsfunctions="python /Users/tom.thornton/GitRepos/edm-instance-compliance/python_scripts/show_functions.py"
+
+# NAVIGATION
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+
+# COMMOND DIRECTORIES
+alias dl="cd ~/Downloads"
+alias dt="cd ~/Desktop"
+alias dc="cd ~/Documents"
+alias p="cd ~/Documents/projects"
+alias home="cd ~"
+
+# GIT
+alias g="git"
+alias gs="git status"
+alias gd="git diff"
+alias gb="git branch"
+alias gm="git checkout master"
+alias gc="git clone"
+alias gr="cd /Users/tom.thornton/GitRepos"
+
+# EASIER DOTFILE EDITING
+alias aliases="nano ~/.aliases && . ~/.aliases"
+
+# DESKTOP
+alias showdd="defaults write com.apple.finder CreateDesktop true &&
+killall Finder"
+alias hidedd="defaults write com.apple.finder CreateDesktop false &&
+killall Finder"
+
+# tensorflow
+alias tensorflow="source ~/miniforge3/bin/activate"
