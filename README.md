@@ -38,6 +38,16 @@ autoload -Uz compinit && compinit
 complete -C '/usr/local/bin/aws_completer' aws
 ```
 
+## Install Brew
+
+Run the following to install homebrew:
+
+`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+
+The add the following line to your `~/.zshrc`
+
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 ## Install Starship
 
 Run the below to install starship:

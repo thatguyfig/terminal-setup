@@ -112,6 +112,8 @@ autoload bashcompinit && bashcompinit
 autoload -Uz compinit && compinit
 complete -C '/usr/local/bin/aws_completer' aws
 
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 # run the starship init
 eval "$(starship init zsh)"
 
