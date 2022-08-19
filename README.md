@@ -2,6 +2,14 @@
 
 A project for storing dot files and terminal configuration.
 
+## Add Custom Aliases
+
+Within the `.aliases` file are a bunch of customisable aliases which are sourced on prompt start up.
+
+You should then source these aliases from your `~/.zshrc` file like so:
+
+`source ~/.aliases`
+
 ## Install Oh my ZSH
 
 Run the below to install ZSH:
